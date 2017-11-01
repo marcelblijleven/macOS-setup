@@ -9,7 +9,7 @@ mkdir ~/DevTools
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install packages via brew
-brew install tree git mas node chromedriver firefoxdriver phantomjs maven mongodb wget diff-so-fancy
+brew install git mas node chromedriver elasticsearch firefoxdriver phantomjs maven mongodb tree wget diff-so-fancy
 brew tap caskroom/cask
 brew cask install google-chrome 
 brew cask install firefox 
@@ -45,3 +45,9 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 # Don't offer new disks for Time Machine backup
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+
+# Config git
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+
+# Reset UI
+killall SystemUIServer
