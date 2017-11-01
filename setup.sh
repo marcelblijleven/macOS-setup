@@ -9,7 +9,18 @@ mkdir ~/DevTools
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install packages via brew
-brew install git mas node chromedriver elasticsearch firefoxdriver phantomjs maven mongodb tree wget diff-so-fancy
+brew install git 
+brew install mas 
+brew install node 
+brew install chromedriver 
+brew install elasticsearch 
+brew install firefoxdriver 
+brew install phantomjs 
+brew install maven 
+brew install mongodb 
+brew install tree 
+brew install wget 
+brew install diff-so-fancy
 brew tap caskroom/cask
 brew cask install google-chrome 
 brew cask install firefox 
@@ -27,6 +38,10 @@ mas install 425424353   # The Unarchiver
 mas install 443987910   # 1Password
 mas install 918858936   # Airmail3
 mas install 937984704   # Amphetamine
+
+# Install global npm packages
+npm install -g create-react-app
+npm install -g mocha
 
 # Set default screenshot location
 defaults write com.apple.screencapture location ~/Screenshots 
