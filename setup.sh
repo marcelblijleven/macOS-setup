@@ -42,6 +42,7 @@ mas install 937984704   # Amphetamine
 # Install global npm packages
 npm install -g create-react-app
 npm install -g mocha
+npm install -g protractor
 
 # Set default screenshot location
 defaults write com.apple.screencapture location ~/Screenshots 
