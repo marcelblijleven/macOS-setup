@@ -16,9 +16,6 @@ sh setup.sh
 #### Java
 > Google for Java (install version 8 for Jenkins)
 
-#### Jenkins
-> [Jenkins website](www.jenkins.io)
-
 #### Sonos
 > [Sonos website](www.sonos.com)
 ***
