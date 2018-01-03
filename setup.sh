@@ -26,8 +26,12 @@ brew cask install google-chrome
 brew cask install firefox 
 brew cask install iterm2
 
+
+
 # Install App Store apps via mas
+mas signin
 # use mas search [appname] to find id's
+
 mas install 1091189122  # Bear
 mas install 409201541   # Pages
 mas install 409203825   # Numbers
