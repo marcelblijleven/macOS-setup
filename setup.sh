@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Create folders
-mkdir ~/Projects
+mkdir ~/projects
 mkdir ~/Screenshots
 
 # Install brew
