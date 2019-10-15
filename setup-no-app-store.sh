@@ -1,9 +1,8 @@
 #!/bin/sh
 
 # Create folders
-mkdir ~/Projects
+mkdir ~/projects
 mkdir ~/Screenshots
-mkdir ~/DevTools
 
 # Install brew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -21,11 +20,6 @@ brew tap caskroom/cask
 brew cask install google-chrome 
 brew cask install firefox
 brew cask install iterm2
-
-# Install global npm packages
-npm install -g create-react-app
-npm install -g mocha
-npm install -g protractor
 
 # Set default screenshot location
 defaults write com.apple.screencapture location ~/Screenshots 
